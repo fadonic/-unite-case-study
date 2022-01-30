@@ -1,0 +1,18 @@
+    
+    TASKS #1 QUESTIONS AND ANSWERS
+    
+    1. What would you do differently? 
+       i. I will use React functional components and hooks instead of React class base components
+      ii. I will not render app component directly to the DOM
+     iii. I will seperate the header section from the app component (i.e further break down the app component into smaller component)
+
+    2. What's good? 
+      i. The support for compile time type-checking using typescripts
+     ii. The code is clean and well organize
+ 
+    3. What's bad? 
+      i  The use of old var for variable decleration/defination
+     ii. It is really difficult writting test cases for the app
+    iii. App.jsx component contain too much code. Can be further broken into two or more components
+
+    4. Are you missing anything in the tooling department? No
