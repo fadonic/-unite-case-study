@@ -83,7 +83,6 @@ class TodoItem extends React.Component<ITodoItemProps, ITodoItemState> {
     const todoText:Array<string> = title.split("@");
     const todoTitle:string = todoText[0].trim()
     const todoLabel:string = todoText.slice(1).join(",")
-   
     return (
       <li className={classNames({
         completed: this.props.todo.completed,
