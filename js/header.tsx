@@ -1,10 +1,10 @@
 import * as React from "react";
 import { ENTER_KEY } from "./constants";
 
-
 interface Props{
   handleNewTodoKeyDown: (val:string)=>void
 }
+
 
 const Header:React.FC<Props> = ({handleNewTodoKeyDown}) => {
   const todoRef = React.useRef<HTMLInputElement>(null)
