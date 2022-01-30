@@ -15,7 +15,7 @@ const onCancel = jest.fn()
 const handleNewTodoKeyDown = jest.fn()
 
 describe('TodoItem', () => {
-  it('should render TodoItem component without any error', async () => {
+  it('should render TodoItem component without error', async () => {
     render(<TodoItem key={key} todo={todo} onCancel={onCancel} onToggle={onToggle} onDestroy={onDestroy} onEdit={onEdit} onSave={onSave} editing={editing} />)
     const spanElementTitle = screen.getByTestId('title')
     expect(spanElementTitle).toBeInTheDocument()
